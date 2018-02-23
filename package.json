@@ -1,0 +1,23 @@
+{
+  "name": "tmclient",
+  "version": "1.0.0",
+  "description": "Node client for ThingsMobile API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucamora/tmclient.git"
+  },
+  "author": "Luca Morandini <luca.morandini98@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucamora/tmclient/issues"
+  },
+  "homepage": "https://github.com/lucamora/tmclient#readme",
+  "dependencies": {
+    "request": "^2.83.0",
+    "xml2js": "^0.4.19"
+  }
+}
