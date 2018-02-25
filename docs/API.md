@@ -177,6 +177,7 @@ Service errors have a different format with a field `code` that store the error 
 }
 ```
 There are **7** error codes:
+
 | Code | Message               | Description                                                 |
 |------|-----------------------|-------------------------------------------------------------|
 | 0    | -                     | TM API returned an undefined response (e.g. inexistent SIM) |
