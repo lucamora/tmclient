@@ -45,7 +45,7 @@ tm.simStatus(msisdn, function (err, status) {
 ```
 
 ## API
-Currently the supported API are 7 (all methods provided by TM).
+Currently the supported API are 6 (all methods provided by TM).
 
 _**NOTE**: You can find a description of the API in the `profile` section in ThingsMobile website._
 
@@ -83,7 +83,7 @@ The typical error format is:
 * `code`: TM error code (when provided) or an HTTP status code (for example for 404 responses)
 * `message`: a description about the occured error
 
-## Ideas for the future
-In the near future I will provide a detailed description for the API responses returned by the TM API.
+## API docs
+[In this document](docs/API.md) you can find a full description about the **methods** provided by the client, the **responses** of the API and a detailed description of the **errors** that can be generated.
 
 ### Over and out!
