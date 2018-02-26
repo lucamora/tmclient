@@ -2,12 +2,12 @@
 Node client for ThingsMobile API
 
 ## Table of contents
-* [Description](sescription)
-* [Installation](installation)
-* [Usage](usage)
-* [API](api)
-* [Errors](errors)
-* [API docs](api-docs)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [API](#api)
+* [Errors](#errors)
+* [API docs](#api-docs)
 
 ## Description
 This is a client for [ThingsMobile](https://www.thingsmobile.com/) API that allow to activate, block and unblock a SIM, get information about it or get the details of the credit history.
