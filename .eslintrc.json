@@ -1,0 +1,42 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2016
+    },
+    "rules": {
+        "indent": [
+            "warn",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "handle-callback-err": [
+            "error"
+        ],
+        "no-var": [
+            "error"
+        ],
+        "no-unused-vars": [
+            "error",
+            {
+                "vars": "all",
+                "args": "none"
+            }
+        ]
+    }
+}
