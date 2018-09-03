@@ -4,7 +4,7 @@
   "description": "Node client for ThingsMobile API",
   "main": "index.js",
   "scripts": {
-	  "lint": "eslint lib",
+    "lint": "eslint lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/lucamora/tmclient#readme",
   "dependencies": {
-    "request": "^2.83.0",
+    "request": "^2.88.0",
     "xml2js": "^0.4.19"
   }
 }
