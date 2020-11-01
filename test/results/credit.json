@@ -1,0 +1,18 @@
+{
+    "amount": 9.0,
+    "currency": "EUR",
+    "history": [
+        {
+            "amount": 10.0,
+            "date": "2017-06-30T13:21:00.000Z",
+            "description": "Credit recharge",
+            "msisdn": "882360000000001"
+        },
+        {
+            "amount": -1.0,
+            "date": "2017-06-30T13:22:00.000Z",
+            "description": "Sim recharge",
+            "msisdn": "882360000000001"
+        }
+    ]
+}

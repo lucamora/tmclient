@@ -53,7 +53,7 @@ tm.simStatus(msisdn, function (err, status) {
 ```
 
 ## API
-Currently the supported API are 6 (all methods provided by TM).
+Currently the supported API are 6.
 
 _**NOTE**: You can find a description of the API in the `profile` section in ThingsMobile website._
 

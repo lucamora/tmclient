@@ -1,0 +1,42 @@
+{
+    "name": "name",
+    "tag": "tag",
+    "msisdn": "447937557899",
+    "iccid": "8944501312167518236",
+    "status": "active",
+    "type": "AllInOne Sim",
+    "lastConnection": "2017-01-20T11:45:00.000Z",
+    "plan": {
+        "type": "default",
+        "activation": "2018-02-07T14:52:49.000Z",
+        "expiration": "2018-02-19T23:00:00.000Z"
+    },
+    "balance": 30.0,
+    "traffic": {
+        "daily": 123.0,
+        "monthly": 1234.0,
+        "total": 0
+    },
+    "threshold": {
+        "daily": 1000000.0,
+        "monthly": 2000000.0,
+        "total": 3000000.0
+    },
+    "blockSim": {
+        "daily": 1,
+        "monthly": 1,
+        "total": 1,
+        "afterExpiration": 1
+    },
+    "cdrs": [
+        {
+            "start": "2017-01-20T11:45:00.000Z",
+            "stop": "2017-01-20T11:50:00.000Z",
+            "traffic": 123456.0,
+            "country": "Zone 1",
+            "imsi": "123456",
+            "network": "Zone 1",
+            "operator": "ITAWI"
+        }
+    ]
+}
