@@ -1,0 +1,20 @@
+[
+    {
+        "name": "name",
+        "tag": "tag",
+        "msisdn": "447937557899",
+        "iccid": "8944501312167518236",
+        "status": "active",
+        "type": "AllInOne Sim",
+        "lastConnection": "2019-04-20T06:37:52.000Z",
+        "plan": {
+            "type": "default",
+            "activation": "2018-02-07T14:52:49.000Z",
+            "expiration": "2018-02-19T23:00:00.000Z"
+        },
+        "balance": 30.0,
+        "traffic": {
+            "monthly": 1234.0
+        }
+    }
+]

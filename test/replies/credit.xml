@@ -1,0 +1,19 @@
+<result>
+    <done>true</done>
+    <amount>9.00</amount>
+    <currency>EUR</currency>
+    <creditHistory>
+        <historyRow>
+            <amount>10.00</amount>
+            <dateLoad>2017-06-30 15:21:00</dateLoad>
+            <opDescription>Credit recharge</opDescription>
+            <msisdn>882360000000001</msisdn>
+        </historyRow>
+        <historyRow>
+            <amount>-1.00</amount>
+            <dateLoad>2017-06-30 15:22:00</dateLoad>
+            <opDescription>Sim recharge</opDescription>
+            <msisdn>882360000000001</msisdn>
+        </historyRow>
+    </creditHistory>
+</result>
