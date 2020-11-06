@@ -65,7 +65,9 @@ Success message:
     "name": "sim name",
     "tag": "sim-tag",
     "msisdn": "xxxxxxxxxxxxxxx",
+    "iccid": "xxxxxxxxxxxxxxxxxxx",
     "status": "active",
+    "type": "sim type",
     "lastConnection": "2018-02-20T20:40:01.000Z",
     "plan": {
         "type": "default",
@@ -78,6 +80,17 @@ Success message:
         "monthly": 1234,
         "total": 12345
     },
+    "threshold": {
+        "daily": 1000000.0,
+        "monthly": 2000000.0,
+        "total": 3000000.0
+    },
+    "blockSim": {
+        "daily": 1,
+        "monthly": 1,
+        "total": 1,
+        "afterExpiration": 1
+    },
     "cdrs": [
         {
             "start": "2018-02-20T17:01:21.000Z",
@@ -85,7 +98,8 @@ Success message:
             "traffic": 10,
             "country": "Italy",
             "imsi": "xxxxxxxxxxxxxxx",
-            "network": "Zone 1"
+            "network": "Zone 1",
+            "operator": "Operator"
         }
     ]
 }
@@ -104,7 +118,9 @@ Success message:
         "name": "sim name",
         "tag": "sim-tag",
         "msisdn": "xxxxxxxxxxxxxxx",
+        "iccid": "xxxxxxxxxxxxxxxxxxx",
         "status": "active",
+        "type": "sim type",
         "lastConnection": "2018-02-20T20:40:01.000Z",
         "plan": {
             "type": "default",
@@ -113,20 +129,8 @@ Success message:
         },
         "balance": 123456,
         "traffic": {
-            "daily": 123,
-            "monthly": 1234,
-            "total": 12345
-        },
-        "cdrs": [
-            {
-                "start": "2018-02-20T17:01:21.000Z",
-                "stop": "2018-02-20T20:40:01.000Z",
-                "traffic": 10,
-                "country": "Italy",
-                "imsi": "xxxxxxxxxxxxxxx",
-                "network": "Zone 1"
-            }
-        ]
+            "monthly": 1234
+        }
     }
 ]
 ```
